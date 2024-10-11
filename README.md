@@ -2,7 +2,7 @@
 ## Linguagens de Marcação WEB
 
 ### Sobre o repositório:
-> Repositório criado para armazenar as atividades e trabalhos da matérioa de Linguagens de Marcação WEB, ministradas pela Docente Marta Amorim.
+> Repositório criado para armazenar as atividades e trabalhos da matéria de Linguagens de Marcação WEB, ministradas pela Docente Marta Amorim.
 
 Aluno | GitHub | LinkedIn
 :-----------------------:| :--------------: | :------------:
