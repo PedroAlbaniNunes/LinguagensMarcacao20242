@@ -11,4 +11,4 @@ Pedro Henrique Albani Nunes | [![GitHub](https://img.shields.io/badge/github-bla
 ### Tecnologias Utilizadas:
   >HTML e CSS  
   >Git e GitHub
-  >Markdown
+    >Markdown
