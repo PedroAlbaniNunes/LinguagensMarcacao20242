@@ -1,0 +1,32 @@
+.cabecalho{
+    color: blue;
+}
+h1{
+    text-align: center;
+}
+#foto{
+    text-align: center;
+}
+.minhadiv{
+    background-color: rgb(170, 170, 170);
+    text-align: center;
+
+    border: 2px dashed black;
+    
+}
+h2:hover{
+    background-color: aqua;
+}
+p{
+    font-family: Verdana;
+}
+ol{
+    list-style-type: upper-alpha;
+}
+ul{
+    list-style-type: none;
+}
+.infos{
+    background-color: lightblue;
+    text-align: center;
+}
