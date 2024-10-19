@@ -1,0 +1,25 @@
+body{
+    background-color: purple;
+}
+header{
+    background-color: lightblue;
+}
+.container{
+    background-color: white;
+    width: 960px;
+    margin: auto;
+}
+h1{
+    font-family: Sixtyfour Convergence;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+img{
+    width: 960px;
+    height: 960px;
+}
+footer{
+    background-color: lightblue;
+}

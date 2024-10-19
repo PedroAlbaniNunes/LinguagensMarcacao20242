@@ -1,0 +1,44 @@
+table{
+    text-align: center;
+    width: 400px;
+    margin: auto;
+    border: none;
+}
+img{
+    border-radius: 25px;
+    width: 100%;
+}
+td{
+    margin: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+tr:hover{
+    background-color: lightblue;
+}
+
+
+
+
+
+body{
+    background-color: purple;
+}
+.container{
+    background-color: white;
+    width: 960px;
+    margin: auto;
+}
+footer{
+    background-color: lightblue;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+h1{
+    font-family: Sixtyfour Convergence;
+}
+header{
+    background-color: lightblue;
+}
