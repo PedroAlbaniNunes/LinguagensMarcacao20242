@@ -3,7 +3,11 @@ table{
     width: 400px;
     margin: auto;
     border: none;
+
 }
+/* table, td, th{
+    border: none;
+} */
 img{
     border-radius: 25px;
     width: 100%;
@@ -12,6 +16,10 @@ td{
     margin: 10px;
     text-align: left;
     border-bottom: 1px solid #ddd;
+}
+table, td, th{
+    border: none;
+    border-collapse: collapse;
 }
 tr:hover{
     background-color: lightblue;
