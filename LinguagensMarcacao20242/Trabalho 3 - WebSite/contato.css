@@ -6,7 +6,7 @@ header{
 }
 .container{
     background-color: white;
-    width: 960px;
+    width: 50%;
     margin: auto;
 }
 h1{
@@ -21,7 +21,7 @@ footer{
 }
 input{
     height: 40px;
-    width: 925px;
+    width: 100%;
     margin: auto;
 }
 input:focus{
@@ -29,4 +29,12 @@ input:focus{
 }
 textarea:focus{
     background-color: lightblue;
+}
+textarea{
+    width: 100%;
+}
+fieldset{
+    width: 90%;
+    margin: auto;
+    border: 2px solid;
 }
