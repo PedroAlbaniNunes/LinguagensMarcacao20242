@@ -1,0 +1,63 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Formulário de cadastro</title>
+</head>
+<body>
+    <section>
+        <main>
+            <div class="container">
+                <h2>Cadastrar Usuários</h2>
+                <div class="dados_pessoais">
+                    <h2>Dados pessoais</h2>
+                    <label for="fnome">Nome:</label>
+                    <input type="text" name="fnome" id="fnome">
+
+                    <label for="femail">Email:</label>
+                    <input type="text" name="femail" id="femail">
+
+                    <label for="fsenha">Senha:</label>
+                    <input type="password" name="fsenha" id="fsenha">
+                    
+                    <label for="fsenha">Confirmar senha:</label>
+                    <input type="password" name="fsenha" id="fsenha">
+
+                    <label for="fidade">Idade: </label>
+                    <input type="radio" name="fidade" id="fidade">
+                    <label for="fidade">Acima 17</label>
+                    <input type="radio" name="fidade" id="fidade">
+                    <label for="fidade">Abaixo ou igual 17</label>
+                </div>
+
+
+                <div class="perfil">
+                    <h2>Perfil</h2>
+
+                    <textarea name="fdesc" id="fdesc" cols="40" rows="4">Descrição: </textarea>
+
+                    <label for="ftrab">Perfil de trabalho:</label>
+                    <select name="ftrab" id="ftrab">
+                        <option value="front">Front-End Developer</option>
+                        <option value="back">Back-End Developer</option>
+                    </select>
+
+                    <label for="finteresse">Interesses: </label>
+                    <input type="checkbox" name="finteresse" id="finteresse">
+                    <label for="finteresse">Programador</label>
+                    <input type="checkbox" name="finteresse" id="finteresse">
+                    <label for="finteresse">Design</label>
+                    <input type="checkbox" name="finteresse" id="finteresse">
+                    <label for="finteresse">Analista</label>
+                </div>
+                <div class="botao">
+                    <input type="submit" name="submit" id="submit" value="Enviar dados">
+                </div>
+
+
+            </div>
+        </main>
+    </section>
+</body>
+</html>
