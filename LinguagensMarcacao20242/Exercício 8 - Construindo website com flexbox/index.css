@@ -1,0 +1,35 @@
+body
+{
+    background-color: whitesmoke;
+}
+
+header
+{
+    background-color: aquamarine;
+}
+
+
+.container
+{
+    display: block;
+}
+.container h1
+{
+    text-align: center;
+}
+
+
+.imagens img
+{
+    width: 5%;
+    height: 10%;
+    object-fit: cover;
+    display: inline-block;
+}
+
+
+
+footer
+{
+    background-color: aquamarine;
+}
