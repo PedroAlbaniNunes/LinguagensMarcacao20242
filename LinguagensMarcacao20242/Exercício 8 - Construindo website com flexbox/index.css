@@ -1,0 +1,250 @@
+body
+{
+  height:100vh;
+}
+header
+{ 
+  min-height:50px; 
+}
+footer
+{ 
+  min-height:50px;
+}
+
+*
+{
+  font-family: "Corinthia", cursive;
+}
+
+
+/* Reset básico */
+body, h1, p, a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+/* Header principal */
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333; /* Cor de fundo do header */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo da logo e nome */
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.site-logo {
+  height: 40px; /* Ajuste o tamanho da imagem */
+  margin-right: 10px; /* Espaço entre a logo e o nome */
+}
+
+.site-name {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #f0f0f0;
+}
+
+/* Navegação */
+.menu {
+  display: flex;
+  gap: 20px; /* Espaço entre os links */
+}
+
+.menu a {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: #f0f0f0; /* Cor dos links */
+  font-size: 1.5rem;
+}
+
+.menu a:hover {
+  color: gold; /* Cor ao passar o mouse */
+}
+
+
+/* Section principal */
+.content-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  background-color: #f0f0f0; /* Cor de fundo da section */
+  height: 73%;
+}
+
+/* Main */
+.main-content {
+  text-align: center;
+}
+
+.main-content p {
+  font-size: 2.5rem;
+}
+/* Título do site */
+.site-title {
+  font-size: 4.5rem;
+  margin-bottom: 30px; /* Espaço entre o título e as imagens */
+}
+
+/* Grid de imagens */
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Cria um layout com 3 colunas */
+  gap: 20px; /* Espaço entre as imagens */
+}
+
+.image-grid img {
+  width: 100%; /* Ocupa toda a largura da célula */
+  height: 150px; /* Define uma altura fixa */
+  object-fit: cover; /* Mantém as proporções e preenche o espaço */
+  border-radius: 10px; /* Mantém o estilo de bordas arredondadas */
+}
+
+.image-item {
+  text-align: center; /* Centraliza o texto em relação à imagem */
+}
+
+.image-item p {
+  margin-top: 8px; /* Espaço entre a imagem e o texto */
+  font-size: 2.8rem; /* Tamanho da fonte do texto */
+  color: #333; /* Cor do texto */
+}
+
+
+
+/* Footer */
+.site-footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333; /* Cor de fundo do footer */
+  color: #fff; /* Cor do texto */
+  font-size: 2.5rem;
+}
+
+.site-footer p {
+  margin: 0;
+}
+
+
+
+
+/*Site Login*/
+.form-container{
+  padding: 7%;
+  border-radius: 8px;
+}
+
+.form-container h2{
+  text-align: center;
+  margin-bottom: 5%;
+  font-size: 3rem;
+
+}
+
+.form-group {
+  margin-bottom: 12%; /* Espaço entre os grupos de formulário */
+}
+
+.form-container label{
+  display: block; /* Garante que o rótulo ocupe toda a largura disponível */
+  margin-bottom: 1%; /* Espaço entre o rótulo e o campo de entrada */
+  font-size: 2.5rem;
+}
+input[type="text"],
+input[type="password"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.form-container button {
+  width: 50%;
+  padding: 3%;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 2rem;
+}
+
+.form-container button:hover {
+  background-color: #0056b3;
+}
+
+
+
+/*Login*/
+.login-container{
+  padding: 7%;
+  border-radius: 8px;
+}
+
+.login-container h2{
+  text-align: center;
+  margin-bottom: 5%;
+  font-size: 3rem;
+
+}
+
+.login-group {
+  margin-bottom: 12%; /* Espaço entre os grupos de formulário */
+}
+
+.login-container label{
+  display: block; /* Garante que o rótulo ocupe toda a largura disponível */
+  margin-bottom: 1%; /* Espaço entre o rótulo e o campo de entrada */
+  font-size: 2.5rem;
+}
+input[type="text"],
+input[type="password"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.login-container button {
+  width: 50%;
+  padding: 3%;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 2rem;
+}
+
+.login-container button:hover {
+  background-color: #0056b3;
+}
+
+.form-group-radio {
+  margin-bottom: 15px;
+}
+
+.radio-options {
+  display: flex;
+  flex-direction: column; /* Alinha os itens verticalmente */
+}
+
+.radio-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px; /* Espaço entre as duplas de radio */
+}
+
+.radio-item label {
+  margin-left: 5px; /* Espaço entre o input e o label */
+}
+
+

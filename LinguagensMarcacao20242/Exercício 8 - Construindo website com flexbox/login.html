@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <title>Floricultura</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="logo-container">
+            <img src="img/logo.png" alt="Logo do Site" class="site-logo">
+            <span class="site-name">Floricultura </span>
+        </div>
+        <nav class="menu">
+            <a href="index.html">Home</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="login.html">Login</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+    </header>
+        <section class="content-section">
+            <div class="login-container">
+                <h2>Login de usuário</h2>
+                <form>
+                <div class="form-group">
+                    <label for="nome">Nome Completo:</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+                <div class="form-group">
+                    <label for="senha">Senha:</label>
+                    <input type="password" id="senha" name="senha" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group-radio">
+                    <label>Idade:</label>
+                    <div class="radio-options">
+                      <div class="radio-item">
+                        <label for="above17">Acima 17</label>
+                        <input type="radio" name="age" id="above17">
+                      </div>
+                      <div class="radio-item">
+                        <label for="belowOrEqual17">Abaixo ou igual 17</label>
+                        <input type="radio" name="age" id="belowOrEqual17">
+                      </div>
+                    </div>
+                  </div>
+                  
+                  
+                <button type="submit">Cadastrar-></button>
+            </div>
+        </section>
+
+        <footer class="site-footer">
+            <p>Todos os direitos reservados®.</p>
+        </footer>
+    </header>
